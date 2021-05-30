@@ -1,0 +1,166 @@
+checking for GCC... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib  -m64   -lruby.2.7   "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -m64  -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: #ifndef __GNUC__
+5: # error
+6: |:/ === __GNUC__ undefined === /:|
+7: #endif
+/* end */
+
+--------------------
+
+checking for Homebrew... -------------------- yes
+
+--------------------
+
+have_package: checking for cairo version (>= 1.2.0)... -------------------- yes
+
+--------------------
+
+have_package: checking for cairo-ft... -------------------- yes
+
+--------------------
+
+yes
+checking for RubyCocoa... no
+checking for macOS... -------------------- yes
+
+checking for CAIRO_HAS_QUARTZ_SURFACE in cairo.h... have_macro: checking for CAIRO_HAS_QUARTZ_SURFACE in cairo.h... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall   -m64  -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <cairo.h>
+4: /*top*/
+5: #ifndef CAIRO_HAS_QUARTZ_SURFACE
+6: # error
+7: |:/ === CAIRO_HAS_QUARTZ_SURFACE undefined === /:|
+8: #endif
+/* end */
+
+--------------------
+
+block in <main>: checking for RubyCocoa... -------------------- no
+
+--------------------
+
+--------------------
+
+have_macro: checking for HAVE_RUBY_ST_H in ruby.h... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall   -m64  -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby.h>
+4: /*top*/
+5: #ifndef HAVE_RUBY_ST_H
+6: # error
+7: |:/ === HAVE_RUBY_ST_H undefined === /:|
+8: #endif
+/* end */
+
+--------------------
+
+have_macro: checking for HAVE_RUBY_IO_H in ruby.h... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall   -m64  -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby.h>
+4: /*top*/
+5: #ifndef HAVE_RUBY_IO_H
+6: # error
+7: |:/ === HAVE_RUBY_IO_H undefined === /:|
+8: #endif
+/* end */
+
+--------------------
+
+have_func: checking for rb_errinfo() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/opt/freetype/lib  -m64   -lcairo -lcairo -lfreetype -lruby.2.7  -lcairo -lcairo -lfreetype  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_errinfo; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_gc_adjust_memory_usage() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/opt/freetype/lib  -m64   -lcairo -lcairo -lfreetype -lruby.2.7  -lcairo -lcairo -lfreetype  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_gc_adjust_memory_usage; return !p; }
+/* end */
+
+--------------------
+
+have_type: checking for enum ruby_value_type in ruby.h... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall   -m64  -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby.h>
+4: 
+5: /*top*/
+6: typedef enum ruby_value_type conftest_type;
+7: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+

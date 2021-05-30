@@ -1,0 +1,498 @@
+checking for --enable-debug-build option... -------------------- no
+
+--------------------
+
+try_compiler_option: checking for -Wall option to compiler... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib  -m64   -lruby.2.7   "
+ld: warning: ignoring file /Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/libruby.2.7.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -m64 -Wall -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Waggregate-return option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -m64 -Waggregate-return -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wcast-align option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -m64 -Wcast-align -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wextra option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -m64 -Wextra -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wformat=2 option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -m64 -Wformat=2 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Winit-self option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -m64 -Winit-self -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wlarger-than-65500 option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -m64 -Wlarger-than-65500 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-declarations option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -m64 -Wmissing-declarations -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-format-attribute option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -m64 -Wmissing-format-attribute -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-include-dirs option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -m64 -Wmissing-include-dirs -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-noreturn option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -m64 -Wmissing-noreturn -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-prototypes option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -m64 -Wmissing-prototypes -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wnested-externs option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -m64 -Wnested-externs -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wold-style-definition option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -m64 -Wold-style-definition -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wpacked option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -m64 -Wpacked -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -m64 -Wp,-D_FORTIFY_SOURCE=2 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wpointer-arith option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -m64 -Wpointer-arith -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wundef option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -m64 -Wundef -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wout-of-line-declaration option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -m64 -Wout-of-line-declaration -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wunsafe-loop-optimizations option to compiler... -------------------- no
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -m64 -Wunsafe-loop-optimizations -Werror -c conftest.c"
+error: unknown warning option '-Wunsafe-loop-optimizations' [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wwrite-strings option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -m64 -Wwrite-strings -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+setup_homebrew: checking for Homebrew... -------------------- yes
+
+--------------------
+
+have_package: checking for pango version (>= 1.14.0)... -------------------- yes
+
+--------------------
+
+have_package: checking for cairo... -------------------- yes
+
+--------------------
+
+have_header: checking for rb_cairo.h... -------------------- yes
+
+"clang -E -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-34276-1ismvxx  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings    conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <rb_cairo.h>
+/* end */
+
+--------------------
+
+have_package: checking for pangocairo... -------------------- yes
+
+--------------------
+
+have_package: checking for pangowin32... -------------------- no
+
+--------------------
+
+have_package: checking for pangoft2... -------------------- yes
+
+--------------------
+
+have_package: checking for gobject-introspection-1.0... -------------------- yes
+
+--------------------
+
+have_func: checking for pango_attr_strikethrough_color_new() in pango/pango.h... -------------------- no
+
+"clang -o conftest -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-34276-1ismvxx  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings      conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/opt/freetype/lib -L/opt/homebrew/Cellar/fontconfig/2.13.1/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/gobject-introspection/1.68.0/lib  -m64   -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0 -lruby.2.7  -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0  "
+ld: warning: ld: warning: ignoring file /opt/homebrew/opt/gettext/lib/libintl.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libglib-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+
+ld: warning: ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libgobject-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/cairo/1.16.0_5/lib/libcairo.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/opt/freetype/lib/libfreetype.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/fontconfig/2.13.1/lib/libfontconfig.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/gobject-introspection/1.68.0/lib/libgirepository-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpangocairo-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/libruby.2.7.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/harfbuzz/2.8.1/lib/libharfbuzz.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpango-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpangoft2-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+Undefined symbols for architecture x86_64:
+  "_pango_attr_strikethrough_color_new", referenced from:
+      _t in conftest-4c10ee.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <pango/pango.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))pango_attr_strikethrough_color_new; return !p; }
+/* end */
+
+"clang -o conftest -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-34276-1ismvxx  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings      conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/opt/freetype/lib -L/opt/homebrew/Cellar/fontconfig/2.13.1/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/gobject-introspection/1.68.0/lib  -m64   -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0 -lruby.2.7  -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0  "
+conftest.c:16:13: error: conflicting types for 'pango_attr_strikethrough_color_new'
+extern void pango_attr_strikethrough_color_new();
+            ^
+/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0/pango/pango-attributes.h:548:17: note: previous declaration is here
+PangoAttribute *pango_attr_strikethrough_color_new (guint16        red,
+                ^
+conftest.c:17:50: error: too few arguments to function call, expected 3, have 0
+int t(void) { pango_attr_strikethrough_color_new(); return 0; }
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0/pango/pango-attributes.h:548:17: note: 'pango_attr_strikethrough_color_new' declared here
+PangoAttribute *pango_attr_strikethrough_color_new (guint16        red,
+                ^
+2 errors generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <pango/pango.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: extern void pango_attr_strikethrough_color_new();
+17: int t(void) { pango_attr_strikethrough_color_new(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for pango_attr_underline_color_new() in pango/pango.h... -------------------- no
+
+"clang -o conftest -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-34276-1ismvxx  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings      conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/opt/freetype/lib -L/opt/homebrew/Cellar/fontconfig/2.13.1/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/gobject-introspection/1.68.0/lib  -m64   -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0 -lruby.2.7  -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0  "
+ld: warning: ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libgobject-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libglib-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/opt/gettext/lib/libintl.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/harfbuzz/2.8.1/lib/libharfbuzz.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpango-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/cairo/1.16.0_5/lib/libcairo.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpangocairo-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/opt/freetype/lib/libfreetype.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/fontconfig/2.13.1/lib/libfontconfig.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpangoft2-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/gobject-introspection/1.68.0/lib/libgirepository-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/libruby.2.7.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+Undefined symbols for architecture x86_64:
+  "_pango_attr_underline_color_new", referenced from:
+      _t in conftest-3e9ca0.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <pango/pango.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))pango_attr_underline_color_new; return !p; }
+/* end */
+
+"clang -o conftest -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-34276-1ismvxx  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings      conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/opt/freetype/lib -L/opt/homebrew/Cellar/fontconfig/2.13.1/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/gobject-introspection/1.68.0/lib  -m64   -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0 -lruby.2.7  -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0  "
+conftest.c:16:13: error: conflicting types for 'pango_attr_underline_color_new'
+extern void pango_attr_underline_color_new();
+            ^
+/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0/pango/pango-attributes.h:542:17: note: previous declaration is here
+PangoAttribute *pango_attr_underline_color_new     (guint16        red,
+                ^
+conftest.c:17:46: error: too few arguments to function call, expected 3, have 0
+int t(void) { pango_attr_underline_color_new(); return 0; }
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0/pango/pango-attributes.h:542:17: note: 'pango_attr_underline_color_new' declared here
+PangoAttribute *pango_attr_underline_color_new     (guint16        red,
+                ^
+2 errors generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <pango/pango.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: extern void pango_attr_underline_color_new();
+17: int t(void) { pango_attr_underline_color_new(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for pango_attr_iterator_get_attrs() in pango/pango.h... -------------------- no
+
+"clang -o conftest -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-34276-1ismvxx  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings      conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/opt/freetype/lib -L/opt/homebrew/Cellar/fontconfig/2.13.1/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/gobject-introspection/1.68.0/lib  -m64   -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0 -lruby.2.7  -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0  "
+ld: warning: ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libgobject-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libglib-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/harfbuzz/2.8.1/lib/libharfbuzz.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpango-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/opt/gettext/lib/libintl.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/cairo/1.16.0_5/lib/libcairo.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpangocairo-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/opt/freetype/lib/libfreetype.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/fontconfig/2.13.1/lib/libfontconfig.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpangoft2-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/libruby.2.7.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/gobject-introspection/1.68.0/lib/libgirepository-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+Undefined symbols for architecture x86_64:
+  "_pango_attr_iterator_get_attrs", referenced from:
+      _t in conftest-9ae36c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <pango/pango.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))pango_attr_iterator_get_attrs; return !p; }
+/* end */
+
+"clang -o conftest -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-34276-1ismvxx  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/fribidi/1.0.10/include/fribidi -I/opt/homebrew/Cellar/harfbuzz/2.8.1/include/harfbuzz -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/Cellar/graphite2/1.3.14/include -I/opt/homebrew/Cellar/cairo/1.16.0_5/include/cairo -I/opt/homebrew/Cellar/pixman/0.40.0/include/pixman-1 -I/opt/homebrew/Cellar/fontconfig/2.13.1/include -I/opt/homebrew/Cellar/libpng/1.6.37/include/libpng16 -I/opt/homebrew/Cellar/libxcb/1.14_1/include -I/opt/homebrew/Cellar/libxau/1.0.9/include -I/opt/homebrew/Cellar/libxdmcp/1.1.3/include -I/opt/homebrew/Cellar/libxrender/0.9.10/include -I/opt/homebrew/Cellar/libx11/1.7.1/include -I/opt/homebrew/Cellar/libxext/1.3.4/include -I/opt/homebrew/Cellar/xorgproto/2021.4/include -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0 -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings      conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/Cellar/cairo/1.16.0_5/lib -L/opt/homebrew/Cellar/pango/1.48.5/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/harfbuzz/2.8.1/lib -L/opt/homebrew/opt/freetype/lib -L/opt/homebrew/Cellar/fontconfig/2.13.1/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/gobject-introspection/1.68.0/lib  -m64   -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0 -lruby.2.7  -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lpango-1.0 -lcairo -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lcairo -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lharfbuzz -lfreetype -lfontconfig -lpangoft2-1.0 -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0  "
+conftest.c:16:13: error: conflicting types for 'pango_attr_iterator_get_attrs'
+extern void pango_attr_iterator_get_attrs();
+            ^
+/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0/pango/pango-attributes.h:681:19: note: previous declaration is here
+GSList *          pango_attr_iterator_get_attrs (PangoAttrIterator     *iterator);
+                  ^
+conftest.c:17:45: error: too few arguments to function call, single argument 'iterator' was not specified
+int t(void) { pango_attr_iterator_get_attrs(); return 0; }
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/opt/homebrew/Cellar/pango/1.48.5/include/pango-1.0/pango/pango-attributes.h:681:19: note: 'pango_attr_iterator_get_attrs' declared here
+GSList *          pango_attr_iterator_get_attrs (PangoAttrIterator     *iterator);
+                  ^
+2 errors generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <pango/pango.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: extern void pango_attr_iterator_get_attrs();
+17: int t(void) { pango_attr_iterator_get_attrs(); return 0; }
+/* end */
+
+--------------------
+

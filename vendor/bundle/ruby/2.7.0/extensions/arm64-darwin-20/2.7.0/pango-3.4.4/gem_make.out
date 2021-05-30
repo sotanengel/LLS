@@ -1,0 +1,71 @@
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/pango-3.4.4/ext/pango
+/Users/nagaharasatsudai/.rbenv/versions/2.7.3/bin/ruby -I /Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/2.7.0 -r ./siteconf20210530-34276-11c3f5f.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Waggregate-return option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... yes
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... yes
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... yes
+checking for -Wunsafe-loop-optimizations option to compiler... no
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... yes
+checking for pango version (>= 1.14.0)... yes
+checking for cairo... yes
+checking for rb_cairo.h... yes
+checking for pangocairo... yes
+checking for pangowin32... no
+checking for pangoft2... yes
+checking for gobject-introspection-1.0... yes
+checking for pango_attr_strikethrough_color_new() in pango/pango.h... no
+checking for pango_attr_underline_color_new() in pango/pango.h... no
+checking for pango_attr_iterator_get_attrs() in pango/pango.h... no
+creating ruby-pango.pc
+creating Makefile
+
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/pango-3.4.4/ext/pango
+make "DESTDIR=" clean
+
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/pango-3.4.4/ext/pango
+make "DESTDIR="
+compiling rb-pango-attr-iterator.c
+compiling rb-pango-attr-list.c
+compiling rb-pango-attribute.c
+compiling rb-pango-scale.c
+compiling rb-pango.c
+linking shared-object pango.bundle
+ld: warning: ignoring file /Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/libruby.2.7.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libglib-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/opt/gettext/lib/libintl.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/harfbuzz/2.8.1/lib/libharfbuzz.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libgobject-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpango-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpangocairo-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/cairo/1.16.0_5/lib/libcairo.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/opt/freetype/lib/libfreetype.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/fontconfig/2.13.1/lib/libfontconfig.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/pango/1.48.5/lib/libpangoft2-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/gobject-introspection/1.68.0/lib/libgirepository-1.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/pango-3.4.4/ext/pango
+make "DESTDIR=" install
+/usr/bin/install -c -m 644 ./rb-pango.h ./.gem.20210530-34276-1ismvxx
+/usr/bin/install -c -m 644 ./rb-pango-conversions.h ./.gem.20210530-34276-1ismvxx
+/usr/bin/install -c -m 0755 pango.bundle ./.gem.20210530-34276-1ismvxx
+if test -n ""; then			\
+	  mkdir -p ;				\
+	  /usr/bin/install -c -m 644 ruby-pango.pc ;	\
+	fi

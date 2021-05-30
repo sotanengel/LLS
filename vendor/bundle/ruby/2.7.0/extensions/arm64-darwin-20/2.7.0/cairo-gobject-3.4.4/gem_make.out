@@ -1,0 +1,57 @@
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-gobject-3.4.4/ext/cairo-gobject
+/Users/nagaharasatsudai/.rbenv/versions/2.7.3/bin/ruby -I /Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/2.7.0 -r ./siteconf20210530-34276-1v2e9i9.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Waggregate-return option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... yes
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... yes
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... yes
+checking for -Wunsafe-loop-optimizations option to compiler... no
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... yes
+checking for cairo-gobject... yes
+checking for cairo... yes
+checking for rb_cairo.h... yes
+creating ruby-cairo-gobject.pc
+creating Makefile
+
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-gobject-3.4.4/ext/cairo-gobject
+make "DESTDIR=" clean
+
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-gobject-3.4.4/ext/cairo-gobject
+make "DESTDIR="
+compiling rb-cairo-gobject.c
+In file included from rb-cairo-gobject.c:21:
+In file included from ./rb-cairo-gobject.h:38:
+/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-1.17.5/ext/cairo/rb_cairo.h:162:9: warning: 'RVAL2POINTER' macro redefined [-Wmacro-redefined]
+#define RVAL2POINTER(obj)       ((void *)(obj))
+        ^
+/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/glib2-3.4.4/ext/glib2/rbglib.h:142:9: note: previous definition is here
+#define RVAL2POINTER(value) ((gpointer)(value))
+        ^
+1 warning generated.
+linking shared-object cairo_gobject.bundle
+ld: warning: ignoring file /Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/libruby.2.7.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/cairo/1.16.0_5/lib/libcairo.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libgobject-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/cairo/1.16.0_5/lib/libcairo-gobject.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/Cellar/glib/2.68.2/lib/libglib-2.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+ld: warning: ignoring file /opt/homebrew/opt/gettext/lib/libintl.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/cairo-gobject-3.4.4/ext/cairo-gobject
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cairo_gobject.bundle ./.gem.20210530-34276-zq6jr8

@@ -1,0 +1,502 @@
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection
+/Users/nagaharasatsudai/.rbenv/versions/2.7.3/bin/ruby -I /Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/2.7.0 -r ./siteconf20210530-24056-76tws1.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Waggregate-return option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... yes
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... yes
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... yes
+checking for -Wunsafe-loop-optimizations option to compiler... no
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... yes
+checking for gobject-introspection-1.0... yes
+creating rbgiversion.h
+creating gobject-introspection-enum-types.c
+creating gobject-introspection-enum-types.h
+creating ruby-gobject-introspection.pc
+creating Makefile
+
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection
+make "DESTDIR=" clean
+
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection
+make "DESTDIR="
+compiling rb-gi-constructor-info.c
+In file included from rb-gi-constructor-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-property-info.c
+In file included from rb-gi-property-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-flags-info.c
+In file included from rb-gi-flags-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gobject-introspection.c
+In file included from rb-gobject-introspection.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-interface-info.c
+In file included from rb-gi-interface-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-array-type.c
+In file included from rb-gi-array-type.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-enum-info.c
+In file included from rb-gi-enum-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-method-info.c
+In file included from rb-gi-method-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-value-info.c
+In file included from rb-gi-value-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-repository.c
+In file included from rb-gi-repository.c:27:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-registered-type-info.c
+In file included from rb-gi-registered-type-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-base-info.c
+In file included from rb-gi-base-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-callable-info.c
+In file included from rb-gi-callable-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-arguments-in.c
+In file included from rb-gi-arguments-in.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+rb-gi-arguments-in.c:213:54: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_init_arg_ruby_void(RBGIArguments *args,
+                                                     ^
+rb-gi-arguments-in.c:239:54: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_array_c_value(RBGIArguments *args,
+                                                     ^
+rb-gi-arguments-in.c:241:48: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                      gpointer user_data)
+                                               ^
+rb-gi-arguments-in.c:262:55: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_array_c_string(RBGIArguments *args,
+                                                      ^
+rb-gi-arguments-in.c:264:49: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                       gpointer user_data)
+                                                ^
+rb-gi-arguments-in.c:272:53: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_array_c_strv(RBGIArguments *args,
+                                                    ^
+rb-gi-arguments-in.c:274:47: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                     gpointer user_data)
+                                              ^
+rb-gi-arguments-in.c:295:57: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_array_c_filename(RBGIArguments *args,
+                                                        ^
+rb-gi-arguments-in.c:297:51: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                         gpointer user_data)
+                                                  ^
+rb-gi-arguments-in.c:325:66: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_init_arg_ruby_array_set_length(RBGIArguments *args,
+                                                                 ^
+rb-gi-arguments-in.c:695:65: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_array_c_interface_struct(RBGIArguments *args,
+                                                                ^
+rb-gi-arguments-in.c:697:59: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                                 gpointer user_data)
+                                                          ^
+rb-gi-arguments-in.c:772:65: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_array_c_interface_object(RBGIArguments *args,
+                                                                ^
+rb-gi-arguments-in.c:774:59: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                                 gpointer user_data)
+                                                          ^
+rb-gi-arguments-in.c:1010:41: warning: assigning to 'gpointer' (aka 'void *') from 'const gchar *' (aka 'const char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+            metadata->in_arg->v_pointer = RVAL2CSTR(rb_arg);
+                                        ^ ~~~~~~~~~~~~~~~~~
+rb-gi-arguments-in.c:1123:48: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_default(RBGIArguments *args,
+                                               ^
+rb-gi-arguments-in.c:1125:42: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                gpointer user_data)
+                                         ^
+rb-gi-arguments-in.c:1133:49: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_filename(RBGIArguments *args,
+                                                ^
+rb-gi-arguments-in.c:1135:43: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                 gpointer user_data)
+                                          ^
+rb-gi-arguments-in.c:1156:57: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_interface_struct(RBGIArguments *args,
+                                                        ^
+rb-gi-arguments-in.c:1158:51: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                         gpointer user_data)
+                                                  ^
+rb-gi-arguments-in.c:1185:64: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_interface_struct_gvalue(RBGIArguments *args,
+                                                               ^
+rb-gi-arguments-in.c:1187:58: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                                gpointer user_data)
+                                                         ^
+rb-gi-arguments-in.c:1209:64: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_interface_struct_gbytes(RBGIArguments *args,
+                                                               ^
+rb-gi-arguments-in.c:1211:58: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                                gpointer user_data)
+                                                         ^
+rb-gi-arguments-in.c:1232:57: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_interface_object(RBGIArguments *args,
+                                                        ^
+rb-gi-arguments-in.c:1234:51: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                         gpointer user_data)
+                                                  ^
+rb-gi-arguments-in.c:1412:45: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_list(RBGIArguments *args,
+                                            ^
+rb-gi-arguments-in.c:1414:39: warning: unused parameter 'user_data' [-Wunused-parameter]
+                             gpointer user_data)
+                                      ^
+rb-gi-arguments-in.c:1448:54: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_init_arg_ruby_list(RBGIArguments *args,
+                                                     ^
+rb-gi-arguments-in.c:1775:46: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_free_ghash(RBGIArguments *args,
+                                             ^
+rb-gi-arguments-in.c:1777:40: warning: unused parameter 'user_data' [-Wunused-parameter]
+                              gpointer user_data)
+                                       ^
+rb-gi-arguments-in.c:1790:55: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_in_init_arg_ruby_ghash(RBGIArguments *args,
+                                                      ^
+34 warnings generated.
+compiling rb-gi-loader.c
+In file included from rb-gi-loader.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-object-info.c
+In file included from rb-gi-object-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-type-tag.c
+In file included from rb-gi-type-tag.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-argument.c
+In file included from rb-gi-argument.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-transfer.c
+In file included from rb-gi-transfer.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-type-info.c
+In file included from rb-gi-type-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling gobject-introspection-enum-types.c
+compiling rb-gi-signal-info.c
+In file included from rb-gi-signal-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-unresolved-info.c
+In file included from rb-gi-unresolved-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-callback-info.c
+In file included from rb-gi-callback-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-callback.c
+In file included from rb-gi-callback.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-constant-info.c
+In file included from rb-gi-constant-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-arg-info.c
+In file included from rb-gi-arg-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-boxed-info.c
+In file included from rb-gi-boxed-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-arguments.c
+In file included from rb-gi-arguments.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-arguments-out.c
+In file included from rb-gi-arguments-out.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+rb-gi-arguments-out.c:24:57: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_immediate_value(RBGIArguments *args,
+                                                        ^
+rb-gi-arguments-out.c:26:51: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                         gpointer user_data)
+                                                  ^
+rb-gi-arguments-out.c:32:48: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_string(RBGIArguments *args,
+                                               ^
+rb-gi-arguments-out.c:34:42: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                gpointer user_data)
+                                         ^
+rb-gi-arguments-out.c:44:55: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_array_c_uint8(RBGIArguments *args,
+                                                      ^
+rb-gi-arguments-out.c:46:49: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                       gpointer user_data)
+                                                ^
+rb-gi-arguments-out.c:68:56: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_array_c_string(RBGIArguments *args,
+                                                       ^
+rb-gi-arguments-out.c:70:50: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                        gpointer user_data)
+                                                 ^
+rb-gi-arguments-out.c:94:59: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_array_c_interface(RBGIArguments *args,
+                                                          ^
+rb-gi-arguments-out.c:96:53: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                           gpointer user_data)
+                                                    ^
+rb-gi-arguments-out.c:119:70: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_array_array_interface_struct(RBGIArguments *args,
+                                                                     ^
+rb-gi-arguments-out.c:121:64: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                                      gpointer user_data)
+                                                               ^
+rb-gi-arguments-out.c:158:58: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_interface_struct(RBGIArguments *args,
+                                                         ^
+rb-gi-arguments-out.c:160:52: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                          gpointer user_data)
+                                                   ^
+rb-gi-arguments-out.c:191:58: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_interface_object(RBGIArguments *args,
+                                                         ^
+rb-gi-arguments-out.c:193:52: warning: unused parameter 'user_data' [-Wunused-parameter]
+                                          gpointer user_data)
+                                                   ^
+rb-gi-arguments-out.c:217:46: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_list(RBGIArguments *args,
+                                             ^
+rb-gi-arguments-out.c:219:40: warning: unused parameter 'user_data' [-Wunused-parameter]
+                              gpointer user_data)
+                                       ^
+rb-gi-arguments-out.c:245:46: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_hash(RBGIArguments *args,
+                                             ^
+rb-gi-arguments-out.c:247:40: warning: unused parameter 'user_data' [-Wunused-parameter]
+                              gpointer user_data)
+                                       ^
+rb-gi-arguments-out.c:262:47: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_free_error(RBGIArguments *args,
+                                              ^
+rb-gi-arguments-out.c:264:41: warning: unused parameter 'user_data' [-Wunused-parameter]
+                               gpointer user_data)
+                                        ^
+rb-gi-arguments-out.c:373:67: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_init_arg_array_array_interface(RBGIArguments *args,
+                                                                  ^
+rb-gi-arguments-out.c:513:55: warning: unused parameter 'args' [-Wunused-parameter]
+rb_gi_arguments_out_init_arg_interface(RBGIArguments *args,
+                                                      ^
+25 warnings generated.
+compiling rb-gi-vfunc-info.c
+In file included from rb-gi-vfunc-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-function-info.c
+In file included from rb-gi-function-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-field-info.c
+In file included from rb-gi-field-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-struct-info.c
+In file included from rb-gi-struct-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+rb-gi-struct-info.c:59:5: warning: missing field 'dcompact' initializer [-Wmissing-field-initializers]
+    },
+    ^
+2 warnings generated.
+compiling rb-gi-direction.c
+In file included from rb-gi-direction.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+compiling rb-gi-union-info.c
+In file included from rb-gi-union-info.c:21:
+In file included from ./rb-gi-private.h:27:
+In file included from /opt/homebrew/Cellar/gobject-introspection/1.68.0/include/gobject-introspection-1.0/girffi.h:25:
+/opt/homebrew/Cellar/libffi/3.3_3/include/ffi.h:441:5: warning: 'FFI_GO_CLOSURES' is not defined, evaluates to 0 [-Wundef]
+#if FFI_GO_CLOSURES
+    ^
+1 warning generated.
+linking shared-object gobject_introspection.bundle
+
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gobject-introspection-3.4.4/ext/gobject-introspection
+make "DESTDIR=" install
+/usr/bin/install -c -m 644 ./rb-gobject-introspection.h ./.gem.20210530-24056-gcepcf
+/usr/bin/install -c -m 0755 gobject_introspection.bundle ./.gem.20210530-24056-gcepcf
+if test -n ""; then				\
+	  mkdir -p ;					\
+	  /usr/bin/install -c -m 644 ruby-gobject-introspection.pc ;\
+	fi

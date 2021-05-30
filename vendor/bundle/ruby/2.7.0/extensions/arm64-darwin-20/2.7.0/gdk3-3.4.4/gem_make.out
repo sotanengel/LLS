@@ -1,0 +1,9 @@
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/gdk3-3.4.4/dependency-check
+/Users/nagaharasatsudai/.rbenv/versions/2.7.3/bin/ruby -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/2.7.0/rubygems -rrubygems /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/rake-13.0.3/exe/rake RUBYARCHDIR\=/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/extensions/arm64-darwin-20/2.7.0/gdk3-3.4.4 RUBYLIBDIR\=/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/extensions/arm64-darwin-20/2.7.0/gdk3-3.4.4
+installing 'gtk+3' native package... Warning: gtk+3 3.24.29 is already installed, it's just not linked.
+To link this version, run:
+  brew link gtk+3
+installing 'gtk+3' native package... succeeded
+succeeded
+--------------------
+

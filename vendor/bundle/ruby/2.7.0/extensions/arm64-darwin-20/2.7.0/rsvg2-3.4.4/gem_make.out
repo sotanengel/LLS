@@ -1,0 +1,12 @@
+current directory: /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/rsvg2-3.4.4/dependency-check
+/Users/nagaharasatsudai/.rbenv/versions/2.7.3/bin/ruby -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/2.7.0/rubygems -rrubygems /Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/gems/rake-13.0.3/exe/rake RUBYARCHDIR\=/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/extensions/arm64-darwin-20/2.7.0/rsvg2-3.4.4 RUBYLIBDIR\=/Users/nagaharasatsudai/Desktop/monodukuri/ruby/LLS/vendor/bundle/ruby/2.7.0/extensions/arm64-darwin-20/2.7.0/rsvg2-3.4.4
+installing 'librsvg' native package... ==> Downloading https://ghcr.io/v2/homebrew/core/librsvg/manifests/2.50.6
+==> Downloading https://ghcr.io/v2/homebrew/core/librsvg/blobs/sha256:0c2d918158902235211286d53d209664e880fa02be098c470c74e897c67e9fbb
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:0c2d918158902235211286d53d209664e880fa02be098c470c74e897c67e9fbb?se=2021-05-30T12%3A05%3A00Z&sig=rRGk6PH1QpT%2BAJvpg%2BfYq2VqNOqdhDegmlWyswil90c%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring librsvg--2.50.6.arm64_big_sur.bottle.tar.gz
+==> /opt/homebrew/opt/gdk-pixbuf/bin/gdk-pixbuf-query-loaders --update-cache
+🍺  /opt/homebrew/Cellar/librsvg/2.50.6: 48 files, 145.4MB
+installing 'librsvg' native package... succeeded
+succeeded
+--------------------
+

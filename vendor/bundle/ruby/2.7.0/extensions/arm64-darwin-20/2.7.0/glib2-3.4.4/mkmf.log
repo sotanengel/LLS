@@ -1,0 +1,654 @@
+checking for --enable-debug-build option... -------------------- no
+
+--------------------
+
+try_compiler_option: checking for -Wall option to compiler... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib  -m64   -lruby.2.7   "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -m64 -Wall -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Waggregate-return option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -m64 -Waggregate-return -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wcast-align option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -m64 -Wcast-align -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wextra option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -m64 -Wextra -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wformat=2 option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -m64 -Wformat=2 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Winit-self option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -m64 -Winit-self -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wlarger-than-65500 option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -m64 -Wlarger-than-65500 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-declarations option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -m64 -Wmissing-declarations -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-format-attribute option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -m64 -Wmissing-format-attribute -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-include-dirs option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -m64 -Wmissing-include-dirs -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-noreturn option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -m64 -Wmissing-noreturn -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-prototypes option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -m64 -Wmissing-prototypes -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wnested-externs option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -m64 -Wnested-externs -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wold-style-definition option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -m64 -Wold-style-definition -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wpacked option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -m64 -Wpacked -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -m64 -Wp,-D_FORTIFY_SOURCE=2 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wpointer-arith option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -m64 -Wpointer-arith -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wundef option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -m64 -Wundef -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wout-of-line-declaration option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -m64 -Wout-of-line-declaration -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wunsafe-loop-optimizations option to compiler... -------------------- no
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -m64 -Wunsafe-loop-optimizations -Werror -c conftest.c"
+error: unknown warning option '-Wunsafe-loop-optimizations' [-Werror,-Wunknown-warning-option]
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wwrite-strings option to compiler... -------------------- yes
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -m64 -Wwrite-strings -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+/* end */
+
+--------------------
+
+setup_homebrew: checking for Homebrew... -------------------- yes
+
+--------------------
+
+have_package: checking for gobject-2.0 version (>= 2.12.0)... -------------------- yes
+
+--------------------
+
+have_package: checking for gthread-2.0... -------------------- yes
+
+--------------------
+
+have_header: checking for unistd.h... -------------------- yes
+
+"clang -E -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings    conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <unistd.h>
+/* end */
+
+--------------------
+
+have_header: checking for io.h... -------------------- no
+
+"clang -E -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings    conftest.c -o conftest.i"
+conftest.c:3:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <io.h>
+/* end */
+
+--------------------
+
+have_func: checking for rb_check_array_type() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_check_array_type; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_check_hash_type() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_check_hash_type; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_exec_recursive() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_exec_recursive; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_errinfo() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_errinfo; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_call_without_gvl() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+conftest.c:16:57: error: use of undeclared identifier 'rb_thread_call_without_gvl'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return !p; }
+                                                        ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return !p; }
+/* end */
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: extern void rb_thread_call_without_gvl();
+17: int t(void) { rb_thread_call_without_gvl(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for ruby_native_thread_p() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))ruby_native_thread_p; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_call_with_gvl() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+conftest.c:16:57: error: use of undeclared identifier 'rb_thread_call_with_gvl'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_with_gvl; return !p; }
+                                                        ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_with_gvl; return !p; }
+/* end */
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: extern void rb_thread_call_with_gvl();
+17: int t(void) { rb_thread_call_with_gvl(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_gc_register_mark_object() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_gc_register_mark_object; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_exc_new_str() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_exc_new_str; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_enc_str_new_static() in ruby.h... -------------------- yes
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+conftest.c:16:57: error: use of undeclared identifier 'rb_enc_str_new_static'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_enc_str_new_static; return !p; }
+                                                        ^
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_enc_str_new_static; return !p; }
+/* end */
+
+"clang -o conftest -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   conftest.c  -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib -L. -L/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib  -fstack-protector-strong -L/usr/local/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib -L/opt/homebrew/Cellar/glib/2.68.2/lib -L/opt/homebrew/opt/gettext/lib  -m64   -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0 -lruby.2.7  -lglib-2.0 -lintl -lgobject-2.0 -lglib-2.0 -lintl -lgthread-2.0  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: extern void rb_enc_str_new_static();
+17: int t(void) { rb_enc_str_new_static(); return 0; }
+/* end */
+
+--------------------
+
+have_var: checking for curr_thread in ruby.h,node.h... -------------------- no
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   -m64  -c conftest.c"
+conftest.c:4:10: fatal error: 'node.h' file not found
+#include <node.h>
+         ^~~~~~~~
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: #include <node.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { const volatile void *volatile p; p = &(&curr_thread)[0]; return !p; }
+/* end */
+
+--------------------
+
+have_var: checking for rb_curr_thread in ruby.h,node.h... -------------------- no
+
+"clang -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/arm64-darwin20 -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0/ruby/backward -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include/ruby-2.7.0 -I. -I./.gem.20210530-24056-1q3e5vi  -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/lib/ruby/vendor_ruby/2.7.0/arm64-darwin20  -I/opt/homebrew/Cellar/libffi/3.3_3/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/opt/homebrew/Cellar/glib/2.68.2/include -I/opt/homebrew/Cellar/glib/2.68.2/include/glib-2.0 -I/opt/homebrew/Cellar/glib/2.68.2/lib/glib-2.0/include -I/opt/homebrew/opt/gettext/include -I/opt/homebrew/Cellar/pcre/8.44/include -I/Users/nagaharasatsudai/.rbenv/versions/2.7.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe -Wall -Waggregate-return -Wcast-align -Wextra -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wout-of-line-declaration -Wwrite-strings   -m64  -c conftest.c"
+conftest.c:4:10: fatal error: 'node.h' file not found
+#include <node.h>
+         ^~~~~~~~
+1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: #include <node.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { const volatile void *volatile p; p = &(&rb_curr_thread)[0]; return !p; }
+/* end */
+
+--------------------
+
